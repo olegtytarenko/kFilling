@@ -34,9 +34,7 @@ abstract class Language
             if($value == ' ') {
                 $returnLetter[$key] = $value;
             } else {
-                echo var_dump($value) . PHP_EOL;
                 $returnLetter[$key] = $this->getPosition(explode("|", $value), $this->_keyBoard);
-                echo PHP_EOL;
             }
 
         }
