@@ -1,0 +1,29 @@
+{
+    "name": "olegtytarenko/k-filling",
+    "description": "Keyboard Filling",
+    "license": "proprietary",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "symfony/yaml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "KFilling\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleg Tytarenko",
+            "email": "olegtytarenko@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "master",
+            "dev-master": "master",
+            "stable": "v1.0beta"
+        }
+    }
+}
